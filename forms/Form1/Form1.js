@@ -1,4 +1,5 @@
 
 Button1.onclick=function(){
-  Label1.value = "Hello"
+  let userName = Input1.value
+  Label1.value = `hi there ${userName}!`
 }
